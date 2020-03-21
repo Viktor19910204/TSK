@@ -1,0 +1,312 @@
+body {
+    width: 100%;
+    background: linear-gradient(to left, #9AE2F6, white);
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    color: #002fce;
+
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo-wrap {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px 5px 30px;
+}
+
+
+.nav-panel {
+    background: linear-gradient(to left, #9AE2F6, white);
+    width: inherit;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 20px;
+    top: 0;
+    margin-bottom: 0px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-title {
+    font-size: 20px;
+    color: #002fce;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.menu-img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.we-work {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    color: #002fce;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu-panel {
+    width: 320px;
+    height: auto;
+    background: radial-gradient(white, #9AE2F6);
+    float: right;
+    position: fixed;
+    right: 0px;
+    box-shadow: 9px 9px 10px;
+    top: 80px;
+}
+
+.menu-logo {
+    color: #002fce;
+    font-weight: bold;
+}
+
+.menu-item {
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: #002fce;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 4px;
+    display: block;
+}
+
+.menu-item:hover {
+    background-color: #002fce;
+    color: white;
+
+}
+
+.news-wrap {
+    text-align: center;
+    width: 800px;
+    margin-top: 30px;
+    border: solid 2px #002fce;
+    box-shadow: 2px 2px 10px;
+    padding: 5px 20px 20px 10px;
+}
+
+.news-wrap:hover {
+    box-shadow: none
+}
+
+.news-wrap:active {
+    border: none;
+}
+
+.text-wrap {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.show-file {
+    color: #002fce;
+    cursor: pointer;
+}
+
+.pdf-file {
+    width: 700px;
+    height: 0px;
+}
+
+.link-pdf {
+    cursor: pointer;
+    color: blue;
+}
+
+.holder-link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pdf-file-video {
+    height: 0px;
+    width: 600px;
+}
+
+.bottom {
+    height: 30px;
+    text-align: center;
+    width: 835px;
+    background-color: #002fce;
+    color: white;
+    box-shadow: 2px 2px 10px;
+
+}
+
+.about-company-wrap {
+    width: 835px;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    color: #002fce;
+    cursor: pointer;
+}
+
+.about-department {
+    color: #002fce;
+    cursor: pointer;
+}
+
+.text-block {
+    box-shadow: 2px 2px 10px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.about-img {
+    margin: 0px 0px 20px 20px;
+}
+
+.history-block {
+    border-bottom: black 2px solid;
+    padding: 10px 0px 5px 0px;
+}
+
+.manage-wrap {
+    width: 700px;
+    background-color: #80DAEB;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: blue 2px solid;
+}
+
+.manage-img-png {
+    width: 170px;
+    height: 250px;
+    padding: 10px 10px;
+}
+
+.manage-img-png-2 {
+    width: 170px;
+    height: 220px;
+    padding: 10px 10px;
+}
+
+.manager {
+    border-bottom: black 2px dotted;
+    border-top: black 2px dotted;
+    margin-top: 5px;
+}
+
+.block-information {
+    margin: 20px 0px;
+    border: #002fce 2px solid;
+    height: 63px; 
+    overflow: hidden;
+}
+.main-title {
+    cursor: pointer;
+}
+
+.holder-wrap {
+    overflow: hidden;
+    height: 0px;
+}
+
+.hide-block:hover {
+    background-color: rgba(20, 122, 223, .2);
+}
+
+.hide-holder:hover {
+    background-color: rgba(20, 122, 223, .2);
+}
+
+.hide-holder-title {
+    color: #002fce;
+    cursor: pointer;
+}
+
+.holder-tiitle {
+    color: #002fce;
+    cursor: pointer;
+}
+
+.hide-title {
+    cursor: pointer;
+}
+
+.vakancy-wrap {
+    text-align: left;
+    padding-left: 20px;
+    border: #002fce 2px solid;
+    margin-bottom: 20px;
+}
+
+.vakancy-title {
+    color: #002fce;
+    cursor: pointer; 
+}
+
+.about-learn {
+    width: 150px;
+}
+
+.marg-bot {
+    margin-bottom: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+
